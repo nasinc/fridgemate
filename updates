@@ -1,0 +1,39 @@
+Phase 3.3.?
+-changed search in ingredients so it displays shrimp
+
+Phase 3.3.2
+Major
+- Implemented search function for recipes, since there are a lot of recipes
+Minor
+- Fixed asterisk in search results of recipes
+- Added more recipes, included some other main ingredients besides meats
+
+For next phase, need to add search functionality for recipes.  Add search bar above drop down, will search recipes based on
+main ingredient
+Phase 3.2.5
+- changed apostrophes in database to asterisk because it was causing crashes when ingredients were added to list fragment
+- convert asterisks to apostrophes so that it visually shows as an apostrophe
+- added more recipes, trying to incorporate some for all major ingredients so it can be launched soon
+Phase 3.2.2
+- changed the background from the blue gradient to a solid grey color
+- app crashes when I add ingredients to list, need to look into this
+- have more recipes to update to the database
+Phase 3.1.5
+- migrated new database for recipes that will ship with app
+- accessing database will now be much quicker as code doesn't have to be ran every time to add all
+  the recipes to the database
+- fixed bug in recipes tab where it wasn't updating the recipes when a different item was selected
+- modded output of recipe names so double apostrophes did not show up in the list
+- fixed bug where recipes weren't dynamically being loaded onto the screen
+- changed output of toast when removing recipe from list
+- continue adding to recipe database
+
+Phase 3.0.0
+- got application running with working recipes table and tab
+- able to view webpage associated with recipe
+- able to add ingredients to my list tab so you have a check list that shows the recipe and all
+  ingredients for recipe
+- notified on screen when actions are made concerning recipes
+- created new layout for my list tab where it shows the recipe name and when it is clicked it
+  expands to show all the ingredients needed
+- disabled voice input at the moment, going to work on it in the future
